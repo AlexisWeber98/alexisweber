@@ -1,0 +1,19 @@
+node_modules/
+*.env 
+config.js
+*.log
+*build
+bun.lock
+dist/
+
+# Fly.io production files
+fly.toml
+fly.postgres.toml
+postulate-latest.dump
+
+# Docker production files
+Dockerfile
+.dockerignore
+
+# Lock files
+package-lock.json
